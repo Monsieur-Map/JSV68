@@ -1,0 +1,26 @@
+#inline, #inline-block, #block, #none{
+    background-color: red;
+    font-size: 30px;
+    /* padding: 20px; */
+    width:100px;
+    height:100px;
+}
+/* không chỉnh được width or height or sth */
+#inline{
+    display: inline;
+}
+/* có thể chỉnh được width, height or sth else */
+#inline-block{
+    display: inline-block;
+}
+/* chỉnh được height + width (xuong hang) */
+#block{
+    display: block;
+}
+/* Ẩn hiệu ứng, elements, components,... */
+#none{
+    display: none;
+}
+
+
+
