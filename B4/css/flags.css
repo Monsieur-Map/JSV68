@@ -3,17 +3,12 @@ body{
     margin: 0 auto;
 }
 
-@media screen {max-width: 500px;}{
-    .flag-group{
-        grid-template-columns: auto;
-
-    }
-}
 
 .flag-group{
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 20px;
+
 }
 
 .flag{
@@ -24,6 +19,7 @@ body{
 
 .vietnam{
     position: relative;
+    border: solid 10px;
 }
 
 .vietnam::before{
@@ -39,11 +35,13 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     z-index: 2;
+    
 }
 
 .greenland{
     background-color: white;
     position: relative;
+    border: solid 10px;
 }
 
 .greenland::before{
@@ -57,4 +55,10 @@ body{
     top: 50%;
     left: 0;
 
-}f
+}
+
+@media screen {max-width: 678px;}
+    .flag-group{
+        grid-template-columns: auto;
+
+    }
