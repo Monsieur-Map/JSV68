@@ -1,0 +1,20 @@
+:root{
+    --colored-bg:  #f9e79f;
+    --colored-text: #06114F;
+    --light-text: #0b5345 ; 
+    --light-bg: #fff;
+}
+
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0 auto;
+}
+
+
+.colored-section {
+    background-color: var(--colored-bg);
+    color: var(--light-text);
+}
